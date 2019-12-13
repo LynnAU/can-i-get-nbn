@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "Can I get NBN?",
+  "version": "0.0.0.1",
+  "content_scripts": [
+    {
+      "matches": [
+        "*://www.domain.com.au/*"
+      ],
+      "js": [
+        "deps/array.map.polyfill.js",
+        "deps/fontawesome.min.js",
+        "content-scripts/common.js",
+        "content-scripts/domaincomau.listing.js",
+        "content-scripts/domaincomau.search.js"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+# node dependencies (eslint)
+node_modules
+
+# docker building
+.dockerignore
+Dockerfile
+
+# api executible
+can-i-get-nbn
